@@ -14,7 +14,7 @@
 #  https://github.com/carpentries/workshop-template
 # and for instructor training events you should use:
 #  https://github.com/carpentries/training-template
-carpentry: "cp"
+carpentry: "dc"
 
 # This option is currently only needed for Data Carpentry workshops.
 # The value of the variable will be ignored for Software Carpentry and
@@ -30,7 +30,7 @@ curriculum: "FIXME"
 # value of the variable below ("flavor") to get the schedule updated accordingly
 # (valid values are 'r' or 'python').
 # Note: this is only for Data Carpentry curricula at this time.
-flavor: "r"
+flavor: "python"
 
 # Overall title for the Workshop.
 # This variable is used to (optionally) add a title in the "jumbotron"
@@ -38,7 +38,7 @@ flavor: "r"
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Workshop Title"
+title: "CMS Open Data Workshop for Theorists"
 
 
 #------------------------------------------------------------
