@@ -2,6 +2,8 @@
 
 [Live site](https://cms-opendata-workshop.github.io/2020-09-30-cms-open-data-workshop-for-theorists/)
 
+I'm referencing the [REANA Awesome Workshop](https://awesome-workshop.github.io/2020-02-17-analysis-preservation-bootcamp/) as a reference for some of the layout questions. 
+
 # The Carpentries Workshop Template
 
 This repository is The Carpentries' ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and
