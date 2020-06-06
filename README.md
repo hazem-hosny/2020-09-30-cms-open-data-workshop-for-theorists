@@ -65,7 +65,7 @@ You will be redirected to your new copy of the workshop template.
 
 If you experience a problem, please [get in touch](#getting-and-giving-help).
 
-## Customizing Your Website (Required Steps)
+## Customizing Your Website
 
 There are two ways of customizing your website. You can either:
 
