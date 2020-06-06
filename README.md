@@ -1,15 +1,14 @@
 [![Build Status](https://travis-ci.com/carpentries/workshop-template.svg?branch=gh-pages)](https://travis-ci.com/carpentries/workshop-template)
 
-[Live site](https://cms-opendata-workshop.github.io/2020-09-30-cms-open-data-workshop-for-theorists/)
+This is the main repository for the first CMS Open Data Workshop for Theorists, held at Fermilab in September 2020. The live site is [here](https://cms-opendata-workshop.github.io/2020-09-30-cms-open-data-workshop-for-theorists/) and it builds automatically as described [below](#the-carpentries-workshop-template).
 
-I'm referencing the [REANA Awesome Workshop](https://awesome-workshop.github.io/2020-02-17-analysis-preservation-bootcamp/) as a reference for some of the layout questions. 
+The site uses the [SW Carpentry workshop template](#the-carpentries-workshop-template) and follows the structure used in the [REANA Awesome Workshop](https://awesome-workshop.github.io/2020-02-17-analysis-preservation-bootcamp/) as a reference for some of the layout questions.
 
-If editing locally
+# How to contribute
 
-```
-git commit -a
-git push origin gh-pages
-```
+Lessons in this and other workshops of this organization are linked to the CMS Open Data Guide.  Please follow the procedure [therein](https://github.com/cernopendata/cms-opendata-guide#how-to-contribute) to link the two tools.  These lessons are generally built from a repository in the current Github organization and use the SW Carpentry's [lesson example](https://github.com/carpentries/lesson-example) template, as described [below](#creating-extra-pages). 
+
+In order to modify the workshop website, and to add material, please follow the SW Carpentry's [default instructions](#customizing-your-website) below.
 
 
 # The Carpentries Workshop Template
@@ -236,13 +235,13 @@ or would like to suggest improvements,
 please [file an issue][issues]
 or [mail us][email].
 
-[email]: mailto:team@carpentries.org
+[email]: mailto:cms-data-preservation@cern.ch
 [customization]: https://carpentries.github.io/workshop-template/customization/index.html
 [dc-site]: https://datacarpentry.org
 [design]: https://carpentries.github.io/workshop-template/design/index.html
 [faq]: https://carpentries.github.io/workshop-template/faq/index.html
 [github-project-pages]: https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site
-[issues]: https://github.com/carpentries/workshop-template/issues
+[issues]: https://github.com/cms-opendata-workshop/2020-09-30-cms-open-data-workshop-for-theorists/issues
 [lesson-example]: https://carpentries.github.io/lesson-example/
 [self-organized-workshop-form]: https://amy.carpentries.org/forms/self-organised/
 [swc-site]: https://software-carpentry.org
