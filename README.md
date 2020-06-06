@@ -6,7 +6,7 @@ The site uses the [SW Carpentry workshop template](#the-carpentries-workshop-tem
 
 # How to contribute
 
-Lessons in this and other workshops of this organization are linked to the CMS Open Data Guide.  Please follow the procedure [therein](https://github.com/cernopendata/cms-opendata-guide#how-to-contribute) to link the two tools.  These lessons are generally built from a repository in the current Github organization and use the SW Carpentry's [lesson example](https://github.com/carpentries/lesson-example) template, as described [below](#creating-extra-pages). 
+Lessons in this and other workshops of this organization are linked to the CMS Open Data Guide.  Please follow the procedure [therein](https://github.com/cernopendata/cms-opendata-guide#how-to-contribute) to link the two resources.  These lessons are generally built from a repository in the current Github organization and use the SW Carpentry's [lesson example](https://github.com/carpentries/lesson-example) template, as described [below](#creating-extra-pages). 
 
 In order to modify the workshop website, and to add material, please follow the SW Carpentry's [default instructions](#customizing-your-website) below.
 
