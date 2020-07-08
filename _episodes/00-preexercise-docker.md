@@ -13,8 +13,8 @@ keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 
 ---
-FIXME
-## Section 
+
+## Overview
 
 This exercise will walk you through setting up and familiarizing yourself with Docker, so that
 you can effectively use it to interface with the CMS open data. It is *not* meant to completely 
