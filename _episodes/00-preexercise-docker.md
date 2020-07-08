@@ -76,7 +76,7 @@ CONTAINER ID        IMAGE                      COMMAND                  CREATED 
 e914cef3c45a        cmsopendata/cmssw_5_3_32   "/opt/cms/entrypoint…"   6 days ago          Exited (1) 9 minutes ago                        beautiful_tereshkova
 b3a888c059f7        cmsopendata/cmssw_5_3_32   "/opt/cms/entrypoint…"   13 days ago         Exited (0) 13 days ago                          affectionate_ardinghelli
 ~~~
-{: .language-bash}
+{: .output}
 
 You'll want to attach using the ```CONTAINER ID```. In the above example, I know that I've been using the most 
 recent container instance for cmsopendata, ```7719a7d74190```. So to reattach, I do
