@@ -82,8 +82,8 @@ You'll want to attach using the ```CONTAINER ID```. In the above example, I know
 recent container instance for cmsopendata, ```7719a7d74190```. So to reattach, I do
 
 ~~~
-docker start 8d1c5b30745c
-docker attach 8d1c5b30745c
+docker start 7719a7d74190
+docker attach 7719a7d74190
 ~~~
 {: .language-bash}
 
