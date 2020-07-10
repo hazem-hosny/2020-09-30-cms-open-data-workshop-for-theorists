@@ -1,5 +1,5 @@
 ---
-title: "Pre-exercise: Using docker"
+title: "Pre-exercise: Using Docker"
 teaching: Self-guided
 exercises: ??? min
 questions:
@@ -43,6 +43,8 @@ run a program from within Docker that pops up any windows or graphics, like ROOT
 
 ~~~
 docker run -it --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" cmsopendata/cmssw_5_3_32 /bin/bash
+docker run -it -v ${HOME}/.ssh:/home/cmsusr/.ssh --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" cmsopendata/cmssw_5_3_32 /bin/bash
+
 ~~~
 {: .language-bash}
 
@@ -113,6 +115,15 @@ Voila! You should be back in the same container.
 {: .challenge}
 
 ## Checkout a git repository and run a small analysis snippet
+~~~
+git clone git://github.com/mattbellis/cern-opendata-sandbox
+
+but not
+
+git clone git@github.com:mattbellis/cern-opendata-sandbox.git
+
+~~~
+{: .language-bash}
 
 TO DO!
 
