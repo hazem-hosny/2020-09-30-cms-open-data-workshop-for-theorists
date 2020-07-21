@@ -23,7 +23,7 @@ This repository is The Carpentries' ([Software Carpentry][swc-site], [Data Carpe
 2. Please *do your work in your repository's `gh-pages` branch*, since that is what is
    [automatically published as a website by GitHub][github-project-pages].
 
-3. Once you are done, please also [let us know][email] the workshop URL. If this is a self-organised
+3. Once you are done, please also [let us know][emailcarpentry] the workshop URL. If this is a self-organised
    workshop, you should also [fill in the self-organized workshop
    form][self-organized-workshop-form] (if you have not already done so), so we can keep track of
    all workshops. We build the list of workshops on our websites from the data included in your
@@ -235,6 +235,7 @@ or would like to suggest improvements,
 please [file an issue][issues]
 or [mail us][email].
 
+[emailcarpentry]: mailto:team@carpentries.org
 [email]: mailto:cms-data-preservation@cern.ch
 [customization]: https://carpentries.github.io/workshop-template/customization/index.html
 [dc-site]: https://datacarpentry.org
