@@ -4,13 +4,13 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "Fermilab LHC Physics Center"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "https://indico.cern.ch/event/882586/videoconference/"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "41.8407"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-88.2794"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Sep 30 - Oct 2, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "9:30 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-09-30      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-10-02        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Matt Bellis", "Edgar Carrera", "Kati Lassila-Perini"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -122,10 +122,8 @@ address.
 </p>
 {% elsif online == "true_public" %}
 <p id="where">
-  <strong>Where:</strong>
-  online at <a href="{{page.address}}">{{page.address}}</a>.
-  If you need a password or other information to access the training,
-  the instructor will pass it on to you before the workshop.
+  <strong>Where is this happening?</strong>
+  This workshop will be remote.  Connection information can be found at <a href="{{page.address}}">{{page.address}}</a>
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
@@ -141,7 +139,7 @@ This block displays the date and links to Google Calendar.
 {% endcomment %}
 {% if page.humandate %}
 <p id="when">
-  <strong>When:</strong>
+  <strong>When is it happening?</strong>
   {{page.humandate}}.
   {% include workshop_calendar.html %}
 </p>
@@ -153,8 +151,7 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  <strong>Requirements:</strong> Participants must use their personal computer with a Mac, Linux, or Windows operating system that they have administrative privileges on. They should have a working virtual machine or Docker container environment as listed in the pre-exercises.  In addition, the packages listed <a href="#setup">below</a> could be useful.
 </p>
 
 {% comment %}
@@ -220,14 +217,15 @@ CODE OF CONDUCT
 <h2 id="code-of-conduct">Code of Conduct</h2>
 
 <p>
-Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
+Please adhere to the <a href="http://directorate-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=174"> Fermilab's Code of Conduct</a>.
 </p>
-
+{% comment%}
 <p class="text-center">
   <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
     <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
   </a>
 </p>
+{% endcomment %}
 <hr/>
 
 
@@ -257,11 +255,12 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
+<!-- Edgar: I commented this out for now
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-
+-->
 <hr/>
 
 
