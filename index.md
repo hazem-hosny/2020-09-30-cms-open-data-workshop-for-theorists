@@ -325,7 +325,7 @@ please preview your site before committing, and make sure to run
 {% endcomment %}
 
 <h2 id="setup">Setup</h2>
-
+<!--
 <p>
   To participate in a
   {% if site.carpentry == "swc" %}
@@ -339,6 +339,8 @@ please preview your site before committing, and make sure to run
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
+-->
+In addition to the requirements mentioned above, getting familiar with the packages listed below would be very useful for this workshop.
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
