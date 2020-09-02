@@ -5037,6 +5037,9 @@ a.badge:focus {
   margin-bottom: 30px;
   color: inherit;
   background-color: #eeeeee;
+  background-image: url("/assets/img/CMSexploded_medium40.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .jumbotron h1,
 .jumbotron .h1 {
