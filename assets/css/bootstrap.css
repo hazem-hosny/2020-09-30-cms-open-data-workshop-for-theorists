@@ -5037,7 +5037,7 @@ a.badge:focus {
   margin-bottom: 30px;
   color: inherit;
   background-color: #eeeeee;
-  background-image: url("/assets/img/CMSexploded_medium40.jpg");
+  background-image: url("https://cms-opendata-workshop.github.io/2020-09-30-cms-open-data-workshop-for-theorists/assets/img/CMSexploded_medium40.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
