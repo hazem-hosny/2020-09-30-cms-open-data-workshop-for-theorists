@@ -6,7 +6,7 @@ The site uses the [SW Carpentry workshop template](#the-carpentries-workshop-tem
 
 # How to contribute
 
-Lessons in this and other workshops of this organization are linked to the CMS Open Data Guide.  Please follow the procedure [therein](https://github.com/cernopendata/cms-opendata-guide#how-to-contribute) to link the two resources.  These lessons are generally built from a repository in the current Github organization and use the SW Carpentry's [lesson example](https://github.com/carpentries/lesson-example) template, as described [below](#creating-extra-pages). 
+Lessons in this and other workshops of this organization are linked to the CMS Open Data Guide.  Please follow the procedure [therein](https://github.com/cernopendata/cms-opendata-guide#how-to-contribute) to link the two resources.  These lessons are generally built from a repository in the current Github organization and use a modified version of the SW Carpentry's [lesson example](https://github.com/carpentries/lesson-example) template.  The modified template is based on the [CMSDAS style](https://github.com/CMSDAS/styles) version of it. Please follow the instructions as described [below](#creating-a-lesson). 
 
 In order to modify the workshop website, and to add material, please follow the SW Carpentry's [default instructions](#customizing-your-website) below.
 
@@ -197,13 +197,16 @@ Further instructions are available in [the customization instructions][customiza
 This [FAQ][faq] includes a few extra tips (additions are always welcome)
 and these notes on [the background and design][design] of this template may help as well.
 
+## Creating a lesson
+
+In order to create a lesson, please follow the same instructions as in the carpentry [the lesson template][lesson-example] but use the [CMSDAS styles template](https://github.com/CMSDAS/styles) instead of the [carpentry one](https://github.com/carpentries/styles/).
 
 ## Creating Extra Pages
 
 In rare cases,
 you may want to add extra pages to your workshop website.
 You can do this by putting either Markdown or HTML pages in the website's root directory
-and styling them according to the instructions give in
+and styling them according to the instructions given in
 [the lesson template][lesson-example].
 
 
