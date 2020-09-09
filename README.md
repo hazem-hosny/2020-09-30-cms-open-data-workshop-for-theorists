@@ -199,7 +199,7 @@ and these notes on [the background and design][design] of this template may help
 
 ## Creating a lesson
 
-In order to create a lesson, please follow the same instructions as in the carpentry [the lesson template][lesson-example] but use the [CMSDAS styles template](https://github.com/CMSDAS/styles) instead of the [carpentry one](https://github.com/carpentries/styles/).
+In order to create a lesson, please follow the same instructions as in the carpentry [the lesson template][lesson-example] (in particular, follow [these](https://carpentries.github.io/lesson-example/setup.html#creating-a-new-lesson) steps) but use the [CMSDAS styles template](https://github.com/CMSDAS/styles) instead of the [carpentry one](https://github.com/carpentries/styles/).
 
 ## Creating Extra Pages
 
