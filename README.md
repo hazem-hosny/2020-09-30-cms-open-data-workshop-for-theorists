@@ -216,6 +216,17 @@ If you want to set up Jekyll so that you can preview changes on your own machine
 to GitHub, you must install the software described in the lesson example [setup
 instructions](https://carpentries.github.io/lesson-example/setup.html#jekyll-setup-for-lesson-development).
 
+As of 2020/09/08, at least in Ubuntu 18.04, the instructions above get in conflict with the version of ruby in the default repository.  For this specific OS this works:
+
+1. Run the ruby installation from the defaul Ubuntu repo:
+`sudo apt-get install ruby ruby-dev build-essential libxml2-dev`
+2. Replace the ruby version from snap:
+`sudo snap install ruby --classic`
+3. Execute the rest of the proposed commands:
+`gem install bundler --user-install`
+`bundle update`
+
+
 ## Setting Up a Separate Repository for Learners
 
 If you are teaching Git,
