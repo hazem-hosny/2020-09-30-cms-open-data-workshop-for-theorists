@@ -151,7 +151,7 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must use their personal computer with a Mac, Linux, or Windows operating system that they have administrative privileges on. They should have a working virtual machine or Docker container environment as listed in the pre-exercises.  In addition, the packages listed <a href="#setup">below</a> could be useful.
+  <strong>Requirements:</strong> Participants must use their personal computer with a Mac, Linux, or Windows operating system that they have administrative privileges on. They should have a working virtual machine or Docker container environment as listed in the pre-exercises.
 </p>
 
 {% comment %}
@@ -324,8 +324,9 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
 <!--
+<h2 id="setup">Setup</h2>
+
 <p>
   To participate in a
   {% if site.carpentry == "swc" %}
@@ -339,7 +340,7 @@ please preview your site before committing, and make sure to run
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
--->
+
 In addition to the requirements mentioned above, getting familiar with the packages listed below would be very useful for this workshop.
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
@@ -354,3 +355,4 @@ In addition to the requirements mentioned above, getting familiar with the packa
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% endif %}
+-->
