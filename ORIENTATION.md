@@ -31,7 +31,7 @@ We give a list a features which you can take into consideration when choosing be
 
 Learning some basics of CMSSW is the second pre-exercise. 
 We understand that not all of you are keen on learning the details of CMSSW, 
-but some basic knowledge of it is definetely needed in order get hold of the data.
+but some basic knowledge of it is definitely needed in order get hold of the data.
 Note that the code and commands to run are the same in VM and in docker. 
 
 In the **second** step, during this workshop, we will use `root` data analysis framework. This is because
