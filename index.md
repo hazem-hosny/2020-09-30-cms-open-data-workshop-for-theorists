@@ -10,7 +10,7 @@ language: "en"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "41.8407"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-88.2794"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Sep 30 - Oct 2, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "8:30 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "8:30 am - 5:00 pm (US Central Time Zone)"     # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-09-30      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-10-02        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Matt Bellis", "Edgar Carrera", "Kati Lassila-Perini"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -73,7 +73,7 @@ INTRODUCTION
 Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
-{% if site.carpentry == "swc" %}
+{% if site.carpentry == "cms" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/intro.html %}
@@ -87,7 +87,7 @@ AUDIENCE
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
-{% if site.carpentry == "swc" %}
+{% if site.carpentry == "cms" %}
 {% include swc/who.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/who.html %}
@@ -141,7 +141,7 @@ This block displays the date and links to Google Calendar.
 <p id="when">
   <strong>When is it happening?</strong>
   {{page.humandate}}.
-  {% include workshop_calendar.html %}
+  {% include workshop_calendar.html %} <strong>US Central Time Zone (UTC-5)</strong>.
 </p>
 {% endif %}
 
@@ -273,7 +273,9 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-{% if site.carpentry == "swc" %}
+<strong>All times in US Central Time Zone (UTC-5)</strong>
+
+{% if site.carpentry == "cms" %}
 {% include swc/schedule.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/schedule.html %}
@@ -302,7 +304,7 @@ please preview your site before committing, and make sure to run
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
 
-{% if site.carpentry == "swc" %}
+{% if site.carpentry == "cms" %}
 {% include swc/syllabus.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/syllabus.html %}
@@ -329,7 +331,7 @@ please preview your site before committing, and make sure to run
 
 <p>
   To participate in a
-  {% if site.carpentry == "swc" %}
+  {% if site.carpentry == "cms" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
   Data Carpentry
@@ -348,7 +350,7 @@ In addition to the requirements mentioned above, getting familiar with the packa
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
-{% if site.carpentry == "swc" %}
+{% if site.carpentry == "cms" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/setup.html %}
