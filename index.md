@@ -13,8 +13,8 @@ humandate: "Sep 30 - Oct 2, 2020"    # human-readable dates for the workshop (e.
 humantime: "8:30 am - 5:00 pm (US Central Time Zone)"     # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-09-30      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-10-02        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Matt Bellis", "Edgar Carrera", "Kati Lassila-Perini"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Julie Hogan", "Nada Mohamed", "Santeri Laurila"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Matt Bellis", "Edgar Carrera", "Julie Hogan", "Clemens Lange", "Kati Lassila-Perini", "Santeri Laurila", "Adelina Lintuluoto", "Tom McCauley", "Sezen Sekmen", "Jesse Thaler"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Asdrubal Cruz", "Nada Mohamed", "Nikolas Pervan", "Farrah Simpson", "Stefan Wunsch"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["mbellis@siena.edu","ecarrera@cern.ch", "Katri.Lassila-Perini@cern.ch"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -273,7 +273,8 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-<strong>All times in US Central Time Zone (UTC-5)</strong>
+<strong>All times in US Central Time Zone (UTC-5)</strong><br>
+Help is available through our <a href="https://mattermost.web.cern.ch/cmsopendatatheo/channels/town-square">Mattermost channel</a> and/or the <a href="https://opendata-forum.cern.ch/c/cms/6">CMS Open Data Forum</a>
 
 {% if site.carpentry == "cms" %}
 {% include swc/schedule.html %}
