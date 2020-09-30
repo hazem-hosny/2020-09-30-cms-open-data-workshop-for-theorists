@@ -123,7 +123,7 @@ address.
 {% elsif online == "true_public" %}
 <p id="where">
   <strong>Where is this happening?</strong>
-  This workshop will be remote.  Connection information can be found at <a href="{{page.address}}">{{page.address}}</a>
+  This workshop will be remote using the Zoom application (details will be emailed to participants).
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
